@@ -8,13 +8,19 @@ This stand for Linux, Apache, Mysql, PHP. Together they provide a proven set of 
 # Chmod and Chown commands in linux
 Both are file permission.
 #Chown is use to change the ownership of a file or folder.
-. Give the members of the group permission to read the file, but not to write and execute it:
+Give the members of the group permission to read the file, but not to write and execute it:
+#
 (chmod g=r filename)
-. To Remove the execute permission for all users:
+#
+To Remove the execute permission for all users:
+#
 (chmod a-x filename)
-. Recursively remove the write permission for other users:
+#
+Recursively remove the write permission for other users:
+#
 (chmod -R o-w dirname)
-. Remove the read, write, and execute permission for all users except the file’s owner:
+#
+Remove the read, write, and execute permission for all users except the file’s owner:
 (chmod og-rwx filename)
 . The same thing can be also accomplished by using the following form:
 (chmod og= filename)
