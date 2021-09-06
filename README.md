@@ -7,7 +7,8 @@ This stand for Linux, Apache, Mysql, PHP. Together they provide a proven set of 
 #
 # Chmod and Chown commands in linux
 Both are file permission.
-#Chown is use to change the ownership of a file or folder.
+Chown is use to change the ownership of a file or folder.
+#
 Give the members of the group permission to read the file, but not to write and execute it:
 #
 (chmod g=r filename)
